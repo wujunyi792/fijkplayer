@@ -4,6 +4,7 @@ version '0.11.0'
 apply plugin: 'com.android.library'
 
 android {
+    namespace = "com.befovy.fijkplayer"
     compileSdkVersion 30
 
     defaultConfig {
@@ -13,6 +14,8 @@ android {
     lintOptions {
         disable 'InvalidPackage'
     }
+
+
 }
 
 
